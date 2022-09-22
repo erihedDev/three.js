@@ -23,8 +23,8 @@ camera.position.z = 5;
 function animate() {
     requestAnimationFrame( animate );
 
-    bennyShape.rotation.x += 0.008;
-    bennyShape.rotation.y += 0.01;
+    bennyShape.rotation.x += 0.02;
+    bennyShape.rotation.y += 0.04;
 
     renderer.render( scene, camera );
 };
